@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-07",
+  "fontStack": "Geist + Geist Mono via next/font/google in src/app/layout.tsx",
+  "palette": "CSS custom properties refreshed into tokens.css",
+  "motion": "No motion library installed; CSS-only microinteractions",
+  "spacing": "Named 4-point scale introduced in tokens.css",
+  "framework": "Next.js 16 App Router in src/app"
+}

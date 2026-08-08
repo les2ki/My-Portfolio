@@ -1,0 +1,51 @@
+:root {
+  --color-paper: oklch(98% 0.012 245);
+  --color-paper-2: oklch(94% 0.025 245);
+  --color-paper-3: oklch(88% 0.04 245);
+  --color-ink: oklch(23% 0.055 252);
+  --color-ink-2: oklch(38% 0.07 252);
+  --color-muted: oklch(48% 0.055 252);
+  --color-rule: oklch(84% 0.045 245);
+  --color-rule-strong: oklch(69% 0.075 248);
+  --color-accent: oklch(56% 0.19 255);
+  --color-accent-ink: oklch(98% 0.012 245);
+  --color-focus: oklch(43% 0.18 255);
+  --color-signal: oklch(73% 0.12 230);
+
+  --font-display: var(--font-geist-sans), Arial, sans-serif;
+  --font-body: var(--font-geist-sans), Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
+  --space-3xl: 7rem;
+  --space-4xl: 10rem;
+
+  --text-xs: 0.7rem;
+  --text-sm: 0.875rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.375rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.25rem;
+  --text-display: clamp(3.6rem, 9vw, 8.6rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-short: 180ms;
+  --dur-medium: 320ms;
+
+  --container-max: 76rem;
+  --control-height: 3rem;
+  --avatar-size: 2.5rem;
+  --icon-size: 1.125rem;
+  --radius-card: 0.35rem;
+  --radius-pill: 999px;
+  --rule-hairline: 1px;
+}

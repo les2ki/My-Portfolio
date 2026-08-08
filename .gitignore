@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# local inspection artifacts
+/tmp/
+
 # production
 /build
 

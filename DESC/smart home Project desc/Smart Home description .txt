@@ -1,0 +1,106 @@
+# ESP32 Smart Light Control System
+
+## Project Summary
+
+This project is a smart home light control system built using an ESP32-S3 microcontroller. The ESP32 connects to WiFi and hosts a small website that allows a user to control lights from a browser. The system was first tested using LEDs, and it can later be expanded to control real light bulbs through a relay module.
+
+The project combines embedded systems, WiFi networking, web page design, and basic home automation.
+
+
+
+## Main Objectives
+
+- Develop a wireless smart light control system.
+- Create a web-based dashboard for controlling lights.
+- Add login authentication for basic security.
+- Control two outputs separately.
+- Display the current light status.
+- Improve understanding of IoT systems using ESP32.
+
+## Components Used
+
+- ESP32-S3 microcontroller
+- LEDs or light bulbs
+- Resistors
+- Breadboard
+- Jumper wires
+- JQC-3FF-S-Z relay module
+- NPN transistor driver
+- WiFi connection
+- Computer with Arduino IDE
+
+## Software and Technologies
+
+- Arduino IDE
+- C++ programming
+- HTML
+- CSS
+- WiFi library
+- WebServer library
+
+## System Overview
+
+The ESP32 connects to a WiFi network and starts a web server. A user opens the ESP32 IP address in a browser and logs into the system. After login, the dashboard allows the user to switch each light ON or OFF.
+
+The ESP32 receives the browser request, processes the command, and updates the correct GPIO output.
+
+## Light Control
+
+- Light 1 is connected to GPIO 14.
+- Light 2 is connected to GPIO 12.
+- Each light has its own ON and OFF controls.
+- The dashboard shows whether each light is currently ON or OFF.
+
+## Login Authentication
+
+The system uses a simple login page before allowing access to the dashboard.
+
+
+
+Cookies are used to keep the user logged in during the session.
+
+## Code Explanation
+
+The main code uses:
+
+- `WiFi.h` to connect the ESP32 to WiFi.
+- `WebServer.h` to run the web server on the ESP32.
+- Login functions to check the username and password.
+- LED control functions to switch GPIO pins HIGH or LOW.
+- Status functions to send the current light states back to the dashboard.
+- Serial Monitor messages for testing and debugging.
+
+## Relay Extension
+
+The LED prototype can be expanded to control real light bulbs using a relay module. A transistor driver is recommended so the ESP32 can switch the relay input more reliably.
+
+For safety, relay testing should first be done with low voltage before using mains electricity.
+
+## Challenges Faced
+
+- WiFi connection and upload issues.
+- Managing login authentication.
+- Updating light status from the dashboard.
+- Designing a simple responsive interface.
+- Getting the relay module to switch reliably.
+
+## Future Improvements
+
+- Add mobile app support.
+- Control more devices.
+- Add voice control.
+- Add cloud connectivity.
+- Add scheduling and timers.
+- Integrate sensors.
+
+## Conclusion
+
+The project successfully demonstrates an IoT-based smart light control system using ESP32. It allows secure browser-based control of lights and creates a strong foundation for future smart home automation features.
+
+## Final Presentation
+
+The PowerPoint file is saved as:
+
+```text
+esp32-smart-light-control-system-green-theme.pptx
+```

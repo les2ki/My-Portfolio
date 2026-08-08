@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2026-08-07",
+    "macrostructure": "Signal Desk + Case Ledger",
+    "theme": "blue-white engineering",
+    "enrichment": "header portrait + contact channel",
+    "scope": "app",
+    "brief": "Added a compact profile avatar to the shared header and made GitHub a visible contact channel alongside LinkedIn."
+  },
+  {
+    "date": "2026-08-07",
+    "macrostructure": "Signal Desk + Case Ledger",
+    "theme": "blue-white engineering",
+    "enrichment": "none",
+    "scope": "app",
+    "brief": "Separated the focused home introduction and capability overview from the full What / How / Result project work page."
+  },
+  {
+    "date": "2026-08-07",
+    "macrostructure": "Split Studio",
+    "theme": "custom systems-lab",
+    "enrichment": "none",
+    "brief": "Redesigned Lesiba Lucky Manala's personal engineering portfolio around real project evidence and an alternating text/proof rhythm."
+  }
+]
