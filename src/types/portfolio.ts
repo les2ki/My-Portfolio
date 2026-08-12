@@ -35,6 +35,7 @@ export type ProjectGalleryItem = ProjectImage & {
 export type Project = {
   title: string;
   slug: string;
+  link?: string;
   kicker: string;
   year?: string;
   what: string;

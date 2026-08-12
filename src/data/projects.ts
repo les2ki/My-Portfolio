@@ -166,4 +166,19 @@ export const projects = [
       },
     ],
   },
+  {
+    slug: "my-latest-project",
+    title: "My latest project",
+    link: "https://illness-tracker.vercel.app/",
+    kicker: "Web development / health information",
+    what: "Built a beginner-friendly health dashboard that presents common communicable and non-communicable health issues across South Africa.",
+    how: [
+      "Organized health conditions into a searchable dashboard so visitors can browse information more easily.",
+      "Added category and severity filters to help users explore the conditions being tracked.",
+      "Included a clear educational disclaimer and data-source context to explain the scope of the information.",
+    ],
+    result:
+      "The project turned a simple health-information idea into an accessible web page that helps visitors explore common health issues in South Africa.",
+    tags: ["Web development", "Health dashboard", "South Africa", "Vercel"],
+  },
 ] satisfies Project[];

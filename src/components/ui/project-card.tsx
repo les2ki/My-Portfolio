@@ -26,6 +26,11 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         <ul className="tag-list" aria-label={`${project.title} details`}>
           {project.tags.map((tag) => <li key={tag}><Icon name="tag" /> {tag}</li>)}
         </ul>
+        {project.link ? (
+          <a className="project-link" href={project.link} target="_blank" rel="noreferrer">
+            View live project <Icon name="arrow-up-right" />
+          </a>
+        ) : null}
         {project.gallery ? <ProjectGallery title={project.title} images={project.gallery} /> : null}
       </div>
     </article>
