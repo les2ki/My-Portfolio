@@ -12,7 +12,9 @@ type ProjectCardProps = {
 export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <article className={`case-study-card case-study-card--${index % 2 === 0 ? "forward" : "reverse"}`}>
-      <div className="case-study-card__media"><ProjectVisual project={project} variant={index + 1} /></div>
+      <div className="case-study-card__media">
+        <ProjectVisual project={project} variant={index + 1} />
+      </div>
       <div className="case-study-card__body">
         <div className="case-study-card__header">
           <div><span className="eyebrow">{project.kicker}</span><h3>{project.title}</h3></div>

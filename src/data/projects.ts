@@ -40,7 +40,7 @@ export const projects = [
     slug: "smart-home-project",
     title: "Smart home project",
     kicker: "Embedded systems / IoT",
-    what: " I built a browser-based smart home control system that uses an ESP32-S3 to switch lights over Wi-Fi and display their current status.",
+    what: "Built a browser-based smart home control system that uses an ESP32-S3 to switch lights over Wi-Fi and display their current status.",
     how: [
       "Programmed the ESP32-S3 in C++ with Arduino IDE, using WiFi and WebServer libraries to host the control interface.",
       "Created a login-protected dashboard with separate controls for each light, status feedback, and GPIO outputs documented in the report.",
@@ -48,7 +48,7 @@ export const projects = [
     ],
     result:
       "The project successfully demonstrated browser-based control of lights through an ESP32 IoT system, creating a working foundation for future smart home features such as more devices, sensors, schedules, and mobile access.",
-    tags: ["ESP32-S3", "C++ / Arduino", "Wi-Fi control", "Web dashboard (HTML / CSS / TypeScript / Oracle SQL)", "Electrial/Electeonics principles"],
+    tags: ["ESP32-S3", "C++ / Arduino", "Wi-Fi control", "Web dashboard (HTML / CSS / TypeScript / Oracle SQL)", "Electrical / electronics principles"],
     image: {
       src: "/images/projects/smart-home/schematic-drawing.png",
       alt: "Smart home project schematic showing the ESP32, relay and light connections",
@@ -75,7 +75,7 @@ export const projects = [
     slug: "bluetooth-access-control-system",
     title: "Bluetooth access control system",
     kicker: "Embedded systems / smart security",
-    what: "Designed and implimented a secure access-control system that unlocks a relay-controlled mechanism when an authorised Bluetooth device is detected.",
+    what: "Designed and implemented a secure access-control system that unlocks a relay-controlled mechanism when an authorised Bluetooth device is detected.",
     how: [
       "Designed the ESP32 circuit with a relay, LCD display, buzzer, and green, red, and yellow status LEDs, using Arduino IDE with BluetoothSerial and LiquidCrystal libraries.",
       "Implemented MAC-address verification so the system could distinguish an authorised Bluetooth device from an unauthorised one.",
@@ -180,5 +180,9 @@ export const projects = [
     result:
       "The project turned a simple health-information idea into an accessible web page that helps visitors explore common health issues in South Africa.",
     tags: ["Web development", "Health dashboard", "South Africa", "Vercel"],
+    image: {
+      src: "/images/projects/latest-project/health-dashboard.png",
+      alt: "SA Health Monitor dashboard showing health information for South Africa",
+    },
   },
 ] satisfies Project[];

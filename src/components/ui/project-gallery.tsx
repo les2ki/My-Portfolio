@@ -12,9 +12,15 @@ export function ProjectGallery({ title, images }: ProjectGalleryProps) {
     <div className="project-gallery" aria-label={`${title} project gallery`}>
       {images.map((image) => (
         <figure className="project-gallery__item" key={image.src}>
-          <div className="project-gallery__image">
+          <a
+            className="project-gallery__image"
+            href={image.src}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`View full-size ${image.label} image for ${title}`}
+          >
             <Image src={image.src} alt={image.alt} fill sizes="(max-width: 760px) 33vw, 18vw" />
-          </div>
+          </a>
           <figcaption className="eyebrow">{image.label}</figcaption>
         </figure>
       ))}

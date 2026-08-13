@@ -11,14 +11,22 @@ type ProjectVisualProps = {
 export function ProjectVisual({ project, priority = false }: ProjectVisualProps) {
   if (project.image) {
     return (
-      <Image
-        className="project-visual__image"
-        src={project.image.src}
-        alt={project.image.alt}
-        fill
-        priority={priority}
-        sizes="(max-width: 800px) 100vw, 75vw"
-      />
+      <a
+        className={`project-visual${project.slug === "my-latest-project" ? " project-visual--latest" : ""}`}
+        href={project.image.src}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`View full-size image for ${project.title}`}
+      >
+        <Image
+          className="project-visual__image"
+          src={project.image.src}
+          alt={project.image.alt}
+          fill
+          priority={priority}
+          sizes="(max-width: 800px) 100vw, 75vw"
+        />
+      </a>
     );
   }
 
