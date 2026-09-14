@@ -3,6 +3,7 @@ import { profile } from "@/data/profile";
 export const navigation = [
   { label: "Home", href: "/" },
   { label: "Work", href: "/work" },
+  { label: "Documents", href: "/#documents" },
   { label: "Contact", href: "/#contact" },
 ] as const;
 

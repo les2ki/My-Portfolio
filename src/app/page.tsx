@@ -1,4 +1,5 @@
 import { ContactSection } from "@/components/sections/contact-section";
+import { DocumentsSection } from "@/components/sections/documents-section";
 import { HeroSection } from "@/components/sections/hero-section";
 import { SkillsSection } from "@/components/sections/skills-section";
 import { SiteFooter } from "@/components/layout/site-footer";
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <SkillsSection />
+        <DocumentsSection />
         <ContactSection />
       </main>
       <SiteFooter />

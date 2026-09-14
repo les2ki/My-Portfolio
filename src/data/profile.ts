@@ -68,5 +68,5 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/lesiba-manala",
   github: "https://github.com/les2ki",
   location: "Gauteng, Pretoria, South Africa",
-  resumeUrl: "/documents/lesiba-lucky-manala-resume.pdf",
+  resumeUrl: "/documents/Lesiba%20Lucky%20Manala._Resume.pdf",
 } satisfies PortfolioProfile;
